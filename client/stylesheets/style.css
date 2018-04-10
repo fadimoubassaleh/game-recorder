@@ -15,7 +15,7 @@
             text-align: center;
             background-color: #141526 !important ;
             font-family: "HCo Gotham SSm", Helvetica, Arial, sans-serif;
-            color: #fff38e;
+            color: #fff38e !important ;
         }
 
         .container-1,
@@ -216,8 +216,6 @@
         .steps{
             grid-column-start: 2;
 
-        }
-        .steps-4{
         }
         .steps-main{
             display: grid;

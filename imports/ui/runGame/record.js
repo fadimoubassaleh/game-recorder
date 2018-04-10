@@ -21,7 +21,7 @@ export default class Records extends Component {
                         if (this.props.choiseRecord[_id].group == 1) {
                             return (
                                 <div className="scoreNow" key={_id}>
-                                    <input className="round" value={"Round: " + prop.id} />
+                                    <input className="round" value={"Round: " + parseInt(prop.id -1) } />
                                     <div className="talab">
                                         <div className="howTalab">
                                             <div className='inputTheTalab'  >                                   {this.props.choiseRecord[_id].choise} </div>
@@ -41,7 +41,7 @@ export default class Records extends Component {
                         } else if (this.props.choiseRecord[_id].group == 2) {
                             return (
                                 <div className="scoreNow" key={_id}>
-                                    <input className="round" value={"Round: " + prop.id} />
+                                    <input className="round" value={"Round: " + parseInt(prop.id -1) } />
                                     <div className="talab">
                                         <div className='inputTheTalab'  ></div>
                                         <div className='inputTheTarnib' ><img className='tarnibNow' /> </div>
@@ -63,7 +63,7 @@ export default class Records extends Component {
                         if (this.props.choiseRecord[_id].group == 1) {
                             return (
                                 <div className="scoreNow" key={_id}>
-                                    <input className="round" value={"Round: " + prop.id} />
+                                    <input className="round" value={"Round: " + parseInt(prop.id -1) } />
                                     <div className="talab">
                                         <div className="howTalab">
                                             <div className='inputTheTalab'  >                                   {this.props.choiseRecord[_id].choise} </div>
@@ -83,7 +83,7 @@ export default class Records extends Component {
                         } else if (this.props.choiseRecord[_id].group == 2) {
                             return (
                                 <div className="scoreNow" key={_id}>
-                                    <input className="round" value={"Round: " + prop.id} />
+                                    <input className="round" value={"Round: " + parseInt(prop.id -1) } />
                                     <div className="talab">
                                         <div className='inputTheTalab'  ></div>
                                         <div className='inputTheTarnib' ><img className='tarnibNow' /> </div>

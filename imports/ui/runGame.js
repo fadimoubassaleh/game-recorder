@@ -19,10 +19,10 @@ export default class Start extends Component {
         this.state = {
             inTimeChois: '',
             choiseRecord: [
-                { id: 1, group: 1, choise: 8, tarnib: "./1.png" },
+                { id: 1, group: 1, choise: 0, tarnib: "./1.png" },
             ],
             resultChoise: [
-                { id: 1, result: 9, group_1: 15, group_2: 25, winLose: true },
+                { id: 1, result: 0, group_1: 0, group_2: 0, winLose: true },
             ],
             timerNow: { second: "00", minute: "00", hours: "00" },
             timer: this.timer,

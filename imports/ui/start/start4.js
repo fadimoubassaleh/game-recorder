@@ -34,35 +34,35 @@ export default () =>
                     Copy
                 </button>
             </div>
-            <div className='steps-main' >
-                <div className='steps steps-4' >
-                    <Step.Group ordered size='mini'>
-                        <Step completed>
-                            <Step.Content>
-                                <Step.Title>Start</Step.Title>
-                                <Step.Description></Step.Description>
-                            </Step.Content>
-                        </Step>
+        </div>
+        <div className='steps-main' >
+            <div className='steps steps-4' >
+                <Step.Group ordered size='mini'>
+                    <Step completed>
+                        <Step.Content>
+                            <Step.Title>Start</Step.Title>
+                            <Step.Description></Step.Description>
+                        </Step.Content>
+                    </Step>
 
-                        <Step completed>
-                            <Step.Content>
-                                <Step.Title>Choose your game</Step.Title>
-                                <Step.Description>What kind of cards game ?</Step.Description>
-                            </Step.Content>
-                        </Step>
-                        <Step completed>
-                            <Step.Content>
-                                <Step.Title>How do you play ?</Step.Title>
-                                <Step.Description>Single or Group</Step.Description>
-                            </Step.Content>
-                        </Step>
-                        <Step active>
-                            <Step.Content>
-                                <Step.Title>Confirm your friends</Step.Title>
-                            </Step.Content>
-                        </Step>
-                    </Step.Group>
-                </div>
+                    <Step completed>
+                        <Step.Content>
+                            <Step.Title>Choose your game</Step.Title>
+                            <Step.Description>What kind of cards game ?</Step.Description>
+                        </Step.Content>
+                    </Step>
+                    <Step completed>
+                        <Step.Content>
+                            <Step.Title>How do you play ?</Step.Title>
+                            <Step.Description>Single or Group</Step.Description>
+                        </Step.Content>
+                    </Step>
+                    <Step active>
+                        <Step.Content>
+                            <Step.Title>Confirm your friends</Step.Title>
+                        </Step.Content>
+                    </Step>
+                </Step.Group>
             </div>
         </div>
     </div>
